@@ -1,0 +1,49 @@
+1. StringBuffer append() : 
+
+매개변수로 입력된 값을 문자열로 변환하여 StringBuffer 인스턴스가 저장하고 있는 문자열의 뒤에 덧붙인다.
+
+
+
+예제
+
+StringBuffer sb = new StringBuffer("abc");
+
+StringBuffer sb2 = sb.append(true);
+
+sb.append('d').append(10.0f);
+
+StringBuffer sb3 = sb.append("ABC").append(123);
+
+
+
+결과
+
+sb = "abctrued10.0ABC123"
+
+sb2 = "abctrued10.0ABC123"
+
+sb3 = "abctrued10.0ABC123"
+
+
+
+2. StringBuffer reverse() :
+
+StringBuffer 인스턴스에 저장되어 있는 문자열의 순서를 거꾸로 나열 한다.
+
+
+
+예제
+
+StringBuffer sb = new StringBuffer("0123456");
+
+sb.reverse();
+
+
+
+결과
+
+sb = "6543210"
+
+
+
+출처: https://arabiannight.tistory.com/entry/자바JAVA-StringBuffer-사용-하기 [아라비안나이트]
